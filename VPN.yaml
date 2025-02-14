@@ -1,0 +1,27 @@
+proxies:
+  - name: Trojan Opok Tsel
+    server: app.gopay.co.id
+    port: 443
+    type: trojan
+    password: 549020c0-ea2b-11ef-8b6a-1239d0255272
+    skip-cert-verify: true
+    sni: sg4.6n6.net
+    network: ws
+    ws-opts:
+      path: ws://app.gopay.co.id/howdy
+      headers:
+        Host: sg4.6n6.net
+    udp: true
+  - name: Vmess Opok Tsel
+    server: app.gopay.co.id
+    port: 443
+    type: vmess
+    password: 4c9a0520-ea28-11ef-b838-205c6d5f5d78
+    skip-cert-verify: true
+    sni: sg-1.hihu.net
+    network: ws
+    ws-opts:
+      path: ws://app.gopay.co.id/qyftvg85
+      headers:
+        Host: sg-1.hihu.net
+    udp: true
