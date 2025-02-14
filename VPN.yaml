@@ -15,3 +15,19 @@ proxies:
       headers: 
         Host: sg-1.hihu.net
     udp: true
+  - name: Ilped Tsel
+    server: 104.26.7.171
+    port: 443
+    type: vmess
+    uuid: 5710f500-e8e3-11ef-b636-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-1.hihu.net
+    network: ws
+    ws-opts:
+      path: /y0vpw8u5
+      headers:
+        Host: sg-1.hihu.net
+    udp: true
