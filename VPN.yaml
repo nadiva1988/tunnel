@@ -1,6 +1,6 @@
 proxies:
   - name: 443 Vmess OPOK
-    server: 104.26.7.171
+    server: app.gopay.co.id
     port: 443
     type: vmess
     uuid: 4c9a0520-ea28-11ef-b838-205c6d5f5d78
