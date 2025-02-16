@@ -31,3 +31,17 @@ proxies:
       headers:
         Host: sg-1.hihu.net
     udp: true
+ - name: opoksel-globalssh_trojan_ws
+    server: app.gopay.co.id
+    port: 443
+    type: trojan
+    password: 5fa02f27-9e84-4e91-b4dc-c3db7cc0279a
+    skip-cert-verify: true
+    sni: trojan-ws
+    network: ws
+    ws-opts:
+      path: ?sni=trojan-ws
+      headers:
+        Host: tro-ca01.gproxy.gratis
+    udp: true
+    
